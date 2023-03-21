@@ -2,9 +2,11 @@
 import './app.css';
 import React from 'react';
 // import 'bulma/css/bulma.min.css';
-// import Contact from './pages/Contact';
 import About from './pages/About';
 import Search from './pages/Search';
+// import ReadingList from './pages/Reading-list';
+// import Contact from './pages/Contact';
+
 import Navbar from './components/Navbar';
 // import QuoteSection from './components/QuoteSection';
 import Footer from './components/Footer';
@@ -21,7 +23,6 @@ function App() {
             
             <Route path="/" element={<About/>} />
             <Route path="/about" element={<About/>} />
-            {/* <Route path="/contact" element={<Contact/>} /> */}
             <Route path="/search" element={<Search/>} />
           </Routes>
         
