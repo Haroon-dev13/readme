@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Hero from "./components/Hero";
+import ReadingList from './components/ReadingList';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
             <Route path="/" element={<About/>} />
             <Route path="/about" element={<About/>} />
             <Route path="/search" element={<Search/>} />
+            <Route path="/list" element={<ReadingList/>} />
           </Routes>
         
         <Footer />
